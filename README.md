@@ -1,8 +1,110 @@
 
-<!-- Profile Banner -->
-<img src="https://github.com/jakobroenn02/jakobroenn02/blob/main/banner.png" width="100%" alt="banner"/>
+<div align="center" style="position: relative; overflow: hidden; border-radius: 14px; padding: 80px 0; background-color: #000;">
 
-# 👋 Hi, I’m Jakob Rønn
+  <!-- Pulsing wave background -->
+  <svg width="100%" height="100%" style="position:absolute; top:0; left:0; z-index:0; opacity:0.12;">
+    <defs>
+      <linearGradient id="waveGradient" x1="0" x2="1" y1="0" y2="0">
+        <stop offset="0%" stop-color="#00ccff"/>
+        <stop offset="100%" stop-color="#0066ff"/>
+      </linearGradient>
+    </defs>
+    <path id="wave" d="M0,100 Q150,50 300,100 T600,100 T900,100 T1200,100" fill="none" stroke="url(#waveGradient)" stroke-width="4">
+      <animateTransform attributeName="transform" type="translate" from="0 0" to="-300 0" dur="6s" repeatCount="indefinite" />
+    </path>
+    <use href="#wave" transform="translate(0, 20)" />
+    <use href="#wave" transform="translate(0, 40)" />
+  </svg>
+
+  <!-- Animated circuit lines -->
+  <svg width="100%" height="100%" style="position:absolute; top:0; left:0; z-index:0; opacity:0.25;">
+    <defs>
+      <linearGradient id="glow" x1="0" x2="1" y1="0" y2="1">
+        <stop offset="0%" stop-color="#00ccff"/>
+        <stop offset="100%" stop-color="#0066ff"/>
+      </linearGradient>
+    </defs>
+    <g stroke="url(#glow)" stroke-width="2">
+      <path d="M0 20 H100 V60 H200 V40 H300 V80 H400" stroke-dasharray="8 8">
+        <animate attributeName="stroke-dashoffset" from="100" to="0" dur="4s" repeatCount="indefinite" />
+      </path>
+      <path d="M400 100 H300 V140 H200 V120 H100 V160 H0" stroke-dasharray="10 10">
+        <animate attributeName="stroke-dashoffset" from="0" to="100" dur="6s" repeatCount="indefinite" />
+      </path>
+    </g>
+  </svg>
+
+  <!-- Neon text -->
+  <h1 style="
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      font-size: 3em;
+      color: #00ccff;
+      text-shadow:
+        0 0 6px #00ccff,
+        0 0 20px #00ccff,
+        0 0 40px #0066ff,
+        0 0 80px #0066ff;
+      z-index:1;
+      position:relative;
+      animation: flicker 3s infinite alternate, pulse 4s ease-in-out infinite;
+    ">
+    👋 Hi, I’m Jakob Rønn
+  </h1>
+
+  <p style="
+      color: #88ddee;
+      font-size: 1.1em;
+      max-width: 700px;
+      margin: auto;
+      z-index:1;
+      position:relative;
+      line-height: 1.5;
+      animation: textPulse 4s ease-in-out infinite;
+    ">
+    Software Engineering Student @ Aalborg University — passionate about low-level programming, systems design, and compiler development.
+  </p>
+
+</div>
+
+<style>
+@keyframes flicker {
+  0%, 19%, 21%, 23%, 25%, 54%, 56%, 100% {
+    text-shadow:
+      0 0 6px #00ccff,
+      0 0 20px #00ccff,
+      0 0 40px #0066ff,
+      0 0 80px #0066ff;
+  }
+  20%, 24%, 55% {
+    text-shadow: none;
+  }
+}
+
+@keyframes pulse {
+  0%, 100% {
+    text-shadow:
+      0 0 6px #00ccff,
+      0 0 20px #00ccff,
+      0 0 40px #0066ff,
+      0 0 80px #0066ff;
+    transform: scale(1);
+  }
+  50% {
+    text-shadow:
+      0 0 12px #00eaff,
+      0 0 30px #00eaff,
+      0 0 60px #0099ff,
+      0 0 100px #0099ff;
+    transform: scale(1.05);
+  }
+}
+
+@keyframes textPulse {
+  0%, 100% { color: #88ddee; }
+  50% { color: #aaffff; }
+}
+</style>
+
 
 🎓 **Software Engineering Student @ Aalborg University**  
 💻 Passionate about **low-level programming**, **systems design**, and **compiler development**  
