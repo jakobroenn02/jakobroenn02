@@ -81,9 +81,6 @@ When I'm not in front of a computer (which admittedly isn't often), you'll find 
 
 <br/>
 
-<div align="center">
-  <i>"The best way to understand a system is to build one yourself."</i>
-</div>
 
 <br/>
 
