@@ -8,7 +8,7 @@
 💻 Passionate about **low-level programming**, **systems design**, and **compiler development**  
 🌱 Currently working on:  
 🧠 **RPL (Robot Programming Language)** – a custom compiler and toolchain in C  
-🧩 **VTA System** – full-stack project using **Flutter**, **.NET 8**, and **MySQL**
+🧩 **GIRAF VTA** – full-stack project using **Flutter**, **.NET 8**, and **MySQL**
 
 ---
 
