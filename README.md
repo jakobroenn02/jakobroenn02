@@ -19,7 +19,7 @@ Contributing to a cross-platform application for children with autism using **Fl
 
 ### 🌱 Currently Exploring
 
-- Game Reverse engineering and modification via DLL injection 
+- Reverse engineering and modification to games via DLL injection 
 
 <br/>
 
