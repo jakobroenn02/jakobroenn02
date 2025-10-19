@@ -19,10 +19,7 @@ Contributing to a cross-platform application for children with autism using **Fl
 
 ### 🌱 Currently Exploring
 
-- OS development and kernel programming
-- Advanced compiler optimizations
-- Embedded systems and bare-metal programming
-- Performance profiling and optimization techniques
+- Game Reverse engineering and modification via DLL injection 
 
 <br/>
 
