@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://jakobroenn02.github.io/assets/neon-banner.svg" width="100%" alt="Jakob Rønn neon banner"/>
+  <img src="https://jakobroenn02.github.io/jakobroenn02/assets/neon-banner.svg" width="100%" alt="Jakob Rønn neon banner"/>
 </p>
 
 
