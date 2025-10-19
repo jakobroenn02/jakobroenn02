@@ -1,3 +1,6 @@
+<p align="center">
+  <img src="https://jakobroenn02.github.io/assets/neon-banner.svg" width="100%" alt="Jakob Rønn neon banner"/>
+</p>
 
 
 🎓 **Software Engineering Student @ Aalborg University**  
