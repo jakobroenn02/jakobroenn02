@@ -66,7 +66,7 @@ When I'm not in front of a computer (which admittedly isn't often), you'll find 
 - 🎮 Playing competitive shooters and strategy games
 - ✈️ Flying in DCS World — nothing beats the complexity of a full A-10C startup procedure
 - 🔧 Modding Arma 3 and tinkering with game mechanics
-- 📚 Reading about operating systems, computer architecture, and software engineering history
+- 📚 Currently reading The Shellcoder's Handbook: Discovering and Exploiting Security Holes
 
 <br/>
 
